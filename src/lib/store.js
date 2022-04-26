@@ -31,7 +31,7 @@ const TasksSlice = createSlice({
   },
 });
 // The actions contained in the slice are exported for usage in our components
-export const { updateTaskState } = TaskSlice.actions;
+export const { updateTaskState } = TasksSlice.actions;
 // Our app's store configuration goes here
 // more on: https://redux-toolkit.js.org/api/configureStore
 const store = configureStore({
